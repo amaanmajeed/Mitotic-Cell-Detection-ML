@@ -1,0 +1,21 @@
+Overview
+Welcome to the Mitotic Cell Detection Challenge! In this competition, we invite data scientists, machine learning enthusiasts, and computer vision experts to develop innovative solutions for a critical task in cellular biology and medical research - distinguishing mitotic cells from normal cells in biological images.
+
+Description
+Participants are provided with a dataset of labeled microscopic images, categorized into two classes: "Mitotic" and "Normal" cells. The objective is to develop a model that can accurately classify these images. This binary image classification task requires participants to process and analyze image data, extract relevant features, and apply appropriate techniques to distinguish between the two cell states.
+Evaluation
+Evaluation Criteria:
+•	Data Preparation
+•	Data Analysis, EDA
+•	Model Selection
+•	Model Optimization
+•	Evaluation Metrics (F1 Score, Area under curve, precision, recall)
+We expect the results to be presented in a proper format. Since it is a categorical problem, we want you to display all the relevant result metrics in your output file.
+Dataset Details
+The dataset consists of high-resolution microscopic images of various cell samples. Each image is either "Mitosis" or "Normal", based on the cell state. The data has been split into two groups:
+
+•	training set (Train.csv)
+•	test set (Test.csv)
+The training set should be used to build your machine learning models. For the training set, we provide the outcome (also known as the “ground truth”) for each image.
+The test set should be used to see how well your model performs on unseen data. For the test set, we do not provide the ground truth for each image. It is your job to predict these outcomes. For each image in the test set, use the model you trained to predict whether or not they show Mitosis.
+For your understanding we have also added some sample images showing Mitosis. The particular cell region is circled. The rest is for you to explore!
